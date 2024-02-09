@@ -40,8 +40,6 @@ A API vai ser útil para o gerenciamento de tarefas, esta API vai permitir aos u
 * Chapter 2: [Resources](Apresentação/Recursos)
 ### Product
 * Chapter 3: [Product](Apresentação/Product)
-### Presentation
-* Chapter 4: [Presentation](doc/c4.md)
 
 
 ## Team
