@@ -1,1 +1,54 @@
 
+# C3 : Product
+
+## 3.1 Development
+
+During the first version of the API, the nodeJS server was created using the [Swagger Edtior](https://editor.swagger.io/) and a MYSQL database had to be created and linked by hand.
+
+![Swagger](./DiagramaSwagger.png)
+
+Swagger
+
+<br>
+
+The second version of the API was created using LOOPBACK4, which auto generated a mysql database and entities relations. A docker compose still had to be manually created to link all services.
+
+![Loopback](./DiagramaLoopback.png)
+
+Loopback
+
+## 3.2 Instalation
+```
+git clone https://github.com/inf23dw1g01/RepDW1.git
+
+cd RepDW1
+
+docker compose up --build
+```  
+
+
+
+## 3.3 Usage
+
+- http://localhost:8080 Will bring you to the Swagger UI
+
+- http://localhost:8081 Will bring you to the React App
+
+![ReactApp](./Screenshot_20240117_221829.png)
+
+The user can click any of the resources and change the values of its fields, a title will indicate where you are editing (Example: Atores "Paul Walker").
+
+
+## 3.4 Implementation details
+
+For and API to be considered RESTful it must follow some key principals.
+Since our assingment was to create a REST API our API had to follow features like the following: 
+
+- **Resources**, our API features resources identified by a unique URI 
+- **HTTP METHODS** operations use HTTP METHODS like the common CRUD methods (Create, Retrieve, Update, Delete). 
+- **STATELESSNESS** every request contains all the information needed for the request to be completed independent of the client's state between requests.
+
+
+---
+[< Previous](c2.md) | [^ Main](../../../) | [Next >](c4.md)
+:--- | :---: | ---: 
