@@ -37,7 +37,7 @@ A API vai ser útil para o gerenciamento de tarefas, esta API vai permitir aos u
 ### Project presentation
 * Chapter 1: [Project presentation](Apresentação/apresentaçãoprojeto)
 ### Resources
-* Chapter 2: [Resources](Recursos)
+* Chapter 2: [Resources](Apresentação/Recursos)
 ### Product
 * Chapter 3: [Product](doc/c3.md)
 ### Presentation
