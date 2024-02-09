@@ -1,0 +1,59 @@
+version: "3.8"
+
+services:
+  database_m3:
+    build:
+      context: ./
+      dockerfile: Dockerfile_db
+    image: database_image
+    container_name: database_m3
+    ports:
+      - 3306:3306
+    networks:
+      - shared_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  loopback_m3:
+    depends_on:
+      database_m3:
+        condition: service_healthy
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: loopback_m3_image
+    working_dir: /home/node/app
+    container_name: loopback_m3
+    restart: unless-stopped
+    ports:
+      - 8080:3000
+    stdin_open: true
+    tty: true
+    networks:
+      - shared_network
+  
+
+  react_m3:
+    depends_on:
+      database_m3:
+        condition: service_healthy
+    build:
+      context: ./react_tasks
+      dockerfile: dockerfile
+    image: react_m3_image
+    working_dir: /TasksAPI
+    container_name: react_m3
+    restart: unless-stopped
+    ports:
+      - 8081:3000
+    stdin_open: true
+    tty: true
+    networks:
+      - shared_network
+    
+networks:
+  shared_network:
+    driver: bridge
