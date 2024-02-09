@@ -1,75 +1,35 @@
-# lb4-tasks
+# API Gestor de Tarefas
 
-This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
-[initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
+Repository to host the project developed for 'Desenvlvimento Web I', a 2^nd^ year subject at Umaia. Developed by Group 27 : [@TiagoBaganha](https://github.com/TiagoBaganha), [@JoãoSá](https://github.com/Joaosa330), [@VítorFerreira](https://github.com/Duarte35).
+Repositório: [Repositório](https://github.com/inf23dw1g27).
+## Short theme description
 
-## Install dependencies
+Desenvolvimento de uma Plataforma de Gerenciamento de Tarefas
+A API vai ser útil para o gerenciamento de tarefas, esta API vai permitir aos utilizadores criar, verificar, atualizar,modificar e excluir tarefas, além de possibilitar a organização dessas tarefas em categorias. 
 
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
 
-```sh
-npm install
-```
+## Repository organization
+    
+* **Controllers code** is in the [Controllers folder](Controllers/).
+* **Service code** is in the [service folder](service/).
+* Relatório is in the [Relatório fille](Relatório).
+* Postman [Postman Fille](api_Tasks.postman_collection.json)
 
-To only install resolved dependencies in `package-lock.json`:
+## Technologies
 
-```sh
-npm ci
-```
+* [json](https://www.w3schools.com/js/js_json_intro.asp)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+* [nodeJS](https://nodejs.org/en/)
 
-## Run the application
 
-```sh
-npm start
-```
+### Frameworks and Libraries
 
-You can also run `node .` to skip the build step.
+* Docker Desktop
+* Visual Studio
+* NodeJS
+* Postman
 
-Open http://127.0.0.1:3000 in your browser.
-
-## Rebuild the project
-
-To incrementally build the project:
-
-```sh
-npm run build
-```
-
-To force a full build by cleaning up cached artifacts:
-
-```sh
-npm run rebuild
-```
-
-## Fix code style and formatting issues
-
-```sh
-npm run lint
-```
-
-To automatically fix such issues:
-
-```sh
-npm run lint:fix
-```
-
-## Other useful commands
-
-- `npm run migrate`: Migrate database schemas for models
-- `npm run openapi-spec`: Generate OpenAPI spec into a file
-- `npm run docker:build`: Build a Docker image for this application
-- `npm run docker:run`: Run this application inside a Docker container
-
-## Tests
-
-```sh
-npm test
-```
-
-## What's next
-
-Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
-understand how you can continue to add features to this application.
-
-[![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
+## Team
+* Tiago Leal Baganha [@TiagoBaganha](https://github.com/TiagoBaganha),
+* Vítor Duarte Ferreira [@VítorFerreira](https://github.com/Duarte35),
+* Joao Pedro Ferreira Sá [@JoãoSá](https://github.com/Joaosa330).
