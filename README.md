@@ -10,24 +10,26 @@ A API vai ser útil para o gerenciamento de tarefas, esta API vai permitir aos u
 
 ## Repository organization
     
-* **Controllers code** is in the [Controllers folder](Controllers/).
-* **Service code** is in the [service folder](service/).
-* Relatório is in the [Relatório fille](Relatório).
-* Postman [Postman Fille](api_Tasks.postman_collection.json)
+* **React code** is in the [react_tasks folder](react_tasks/).
+* **Loopback code** is in the [src folder](src/).
+* Relatório is in the [Relatório folder](Relatório/).
+* 
 
 ## Technologies
 
 * [json](https://www.w3schools.com/js/js_json_intro.asp)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 * [nodeJS](https://nodejs.org/en/)
+* [react](https://react.dev/community)
+* [loopback](https://loopback.io/doc/en/lb4/)
 
 
 ### Frameworks and Libraries
 
 * Docker Desktop
 * Visual Studio
-* NodeJS
-* Postman
+* Loopback
+* ReactAdmin
 
 ## Team
 * Tiago Leal Baganha [@TiagoBaganha](https://github.com/TiagoBaganha),
