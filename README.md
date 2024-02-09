@@ -12,7 +12,7 @@ A API vai ser útil para o gerenciamento de tarefas, esta API vai permitir aos u
     
 * **React code** is in the [react_tasks folder](react_tasks/).
 * **Loopback code** is in the [src folder](src/).
-* Relatório is in the [Relatorio folder](Relatorio/).
+* Relatório is in the [Relatorio fille](API Gestor de Tarefas.pdf).
 
   
 ## Technologies
